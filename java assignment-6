@@ -1,0 +1,114 @@
+1. package nestedloops;
+
+public class table {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=10;i++)
+		{
+			int count=2;
+			for(int j=2;j<=10;j++)
+			{
+				System.out.print(i*j+"  ");
+			}
+		count++;
+		System.out.println();
+		}
+		
+	}
+
+}
+Output:
+**********
+**********
+**********
+**********
+
+2.package nestedloops;
+
+public class star2 {
+
+	public static void main(String[] args) {
+		char num = '*';
+		for (int k = 1; k <= 5; k++) {
+			for (int i = 1; i <= k; i++) {
+				System.out.print(num);
+			}
+			System.out.println();
+		}
+
+		// TODO Auto-generated method stub
+
+	}
+
+}
+Output:
+*
+**
+***
+****
+*****
+
+3.package nestedloops;
+
+public class star3 {
+
+	public static void main(String[] args) {
+		int a=1;
+		for(int i=0;i<=5;i++)
+		{
+			for(int j=0;j<5-i;j++)
+			{
+				System.out.print(" ");
+				
+				
+			}
+			for(int k=0;k<a;k++)
+			{
+				System.out.print("*");
+				
+			}
+			a=a+2;
+			System.out.println();
+		
+		
+	
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}
+Output:
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+
+4.package nestedloops;
+
+public class star5 {
+
+	public static void main(String[] args) {
+		for(int k=1;k<=5;k++)
+		{
+			for(int i=k;i<=5;i++)
+			{
+				System.out.print(" ");
+			}
+		for(int j=1;j<=k;j++)
+		{
+			System.out.print("*");
+			
+		}
+		System.out.println();
+
+		}}}
+Output:
+     *
+    **
+   ***
+  ****
+ *****
+
